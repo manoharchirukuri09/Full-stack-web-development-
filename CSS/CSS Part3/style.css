@@ -1,0 +1,33 @@
+div{
+    /* height of the text */
+    height: 200px;
+}
+div{
+    /* width of the text */
+    width: 300px;
+}
+div{
+    /*
+    border-width: 2px;
+    border-style: dashed ;
+    border-color:purple;
+    */
+     /*border: 2px dashed purple; 
+     border-left: yellow;
+     border-right: green;
+     border-top:5px dashed purple;
+     */
+     border-radius: 15px;
+     border: 2px solid black;
+
+}
+div{
+    padding:50px;
+}
+div{
+    margin:50px;
+   
+}
+
+
+

@@ -1,0 +1,78 @@
+*{
+    /* universal selector */
+    font-size : arial;
+}
+h1, h3 {
+    /* Element selector */
+    color : rgb(255,0,0);
+}
+#login {
+    /* id selector */
+    color : red;
+    background-color: white;
+}
+#singup{
+    color : white;
+    background-color: #b92b27;
+}
+.a{
+    background-color:pink;
+}
+nav.ul,li,a{
+    /* descendent selector */
+    color:pink;
+}
+p + h3{
+    /* Adjacent Sibling combinator */
+    background-color:antiquewhite;
+}
+div >child{
+    /* child combinator */
+    background-color:darksalmon;
+}
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:red;
+}
+input[type]{
+    background-color:ghostwhite;
+}
+h3:hover{
+    /* Pseduo class hover  */
+    background-color:red;
+    text-decoration:overline;
+    color:white;
+}
+button:active{
+    /* pseudo class active */
+    background-color:hotpink;
+}
+P:active{
+    font-weight:bold;
+}
+input[type="radio"]:checked + label{
+    /* pseudo class checked */
+    color:red;
+    font-weight:bold;
+}
+p:nth-of-type(2n) {
+    /*nth-of-type pseudo class */
+    background-color:black;
+}
+h1::first-letter{
+    /* pseudo element * first letter */
+    color:black;
+}
+p::first-line{
+    /* pseudo element * first line */
+    color:blue;
+}
+p::selection{
+    /* pseudo element * selection */
+    background-color:yellow;
+}
+
+
+

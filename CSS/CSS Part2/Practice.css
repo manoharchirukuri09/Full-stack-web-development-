@@ -1,0 +1,13 @@
+*{
+    font-family: "courier new";
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+h1{
+    color:#1b74e4;
+}
+.input{
+    background-color:aqua;
+}
