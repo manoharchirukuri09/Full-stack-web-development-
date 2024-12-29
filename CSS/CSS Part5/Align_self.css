@@ -1,0 +1,17 @@
+#container{
+    height:300px;
+    width:80%;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+
+}
+#container div{
+    height:100px;
+    width:100px;
+}
+#org{
+    align-self: center;
+}

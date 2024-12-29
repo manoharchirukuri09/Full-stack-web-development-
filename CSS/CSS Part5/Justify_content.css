@@ -1,0 +1,16 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    /* space between is used space between the elements */
+    justify-content:space-between;
+    /* flex start is used to start the element  */
+    justify-content:flex-start;
+    /* flex end is used to end the element */
+    justify-content:flex-end;
+
+}
