@@ -1,0 +1,37 @@
+section{
+    margin-top:100px;
+}
+div{
+    height:50px;
+    width:50px;
+    text-align: center;
+    background-color:#7aa874;
+    border:2px solid black;
+    margin:10px;
+}
+div:nth-of-type(2n){
+    background-color:red;
+}
+div:nth-of-type(3n){
+    background-color:yellow;
+}
+#one{
+    /* It is used to rotate the element using deg */
+    transform: rotate(90deg);
+}
+#two{
+    /* It is used to decrease the size of the element */
+    transform: scale(0.5);
+    /* It is used to X and Y axis (0.5 is X axis 2 is the y-axis) */
+    transform: scale(0.5,2);
+}
+#three{
+    /* It is used to transfer the element based on X and Y axis (50px,50px) */
+   transform: translate(10PX,10PX);
+}
+#four{
+    transform: skewY(180deg); /* Skew along the X-axis */
+}
+
+
+
